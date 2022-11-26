@@ -22,10 +22,10 @@
                 android:value="" />
         </activity>
         <activity
-            android:name="com.myapp.androidexcercisesdeo.activities.DetailTourActivity"
+            android:name="com.myapp.androidexcercisesdeo.activities.DetailContentActivity"
             android:exported="false" />
         <activity
-            android:name="com.myapp.androidexcercisesdeo.activities.rvActivity"
+            android:name="com.myapp.androidexcercisesdeo.activities.RecycleviewActivity"
             android:exported="false"
             android:parentActivityName="com.myapp.androidexcercisesdeo.activities.MainActivity" />
         <activity

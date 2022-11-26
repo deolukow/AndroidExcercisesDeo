@@ -8,17 +8,17 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.myapp.androidexcercisesdeo.R
-import com.myapp.androidexcercisesdeo.models.Tour
+import com.myapp.androidexcercisesdeo.models.Content
 
-class TourListAdapter(private val context: Context, private val tour: ArrayList<Tour>, val listener: (Tour) -> Unit)
-    : RecyclerView.Adapter<TourListAdapter.TourViewHolder>() {
+class ContentListAdapter(private val context: Context, private val tour: ArrayList<Content>, val listener: (Content) -> Unit)
+    : RecyclerView.Adapter<ContentListAdapter.TourViewHolder>() {
 
     class TourViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val tvName: TextView = itemView.findViewById(R.id.tvName)
         val tvDescription: TextView = itemView.findViewById(R.id.tvDescription)
         val ivPhoto: ImageView = itemView.findViewById(R.id.ivPhoto)
 
-        fun bindView(tour: Tour, listener: (Tour) -> Unit) {
+        fun bindView(tour: Content, listener: (Content) -> Unit) {
             tvName.text = tour.name
             tvDescription.text = tour.description
             ivPhoto.setImageResource(tour.photo)
@@ -30,7 +30,7 @@ class TourListAdapter(private val context: Context, private val tour: ArrayList<
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TourViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.tour_list_item, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.content_list_item, parent, false)
         return TourViewHolder(view)
     }
 

@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.myapp.androidexcercisesdeo.R
-import com.myapp.androidexcercisesdeo.activities.rvActivity
+import com.myapp.androidexcercisesdeo.activities.RecycleviewActivity
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -38,13 +38,13 @@ class rvFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_rv, container, false)
+        return inflater.inflate(R.layout.fragment_recycleview, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val button: Button = view.findViewById(R.id.button)
         button.setOnClickListener {
-            val intent = Intent(context, rvActivity::class.java)
+            val intent = Intent(context, RecycleviewActivity::class.java)
             startActivity(intent)
         }
     }
