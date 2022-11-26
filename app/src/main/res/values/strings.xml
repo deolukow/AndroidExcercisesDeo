@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Android Excercises Deo</string>
+
+    <string-array name="data_name">
+        <item>Tembok Besar, China</item>
+        <item>Taj Mahal, India</item>
+        <item>Petra, Yordania</item>
+        <item>Colosseum, Italia</item>
+        <item>Patung Christ the Redeemer, Brazil</item>
+        <item>Chichen Itza, Meksiko</item>
+        <item>Machu Picchu, Peru</item>
+        <item>Patung Zeus, Olympia</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Tembok Besar China mulai dibangun pada abad ke-7 SM, dan berlanjut selama dua milenium. Adapun yang paling terkenal, adalah pembangunan bagian tembok pada 220-206 SM oleh Qin Shi Huang, Kaisar pertama Tiongkok. Tembok Besar China dibangun dengan tujuan awal untuk melindungi negara dari serangan. Diperkirakan, panjang simbol nasional Tiongkok ini mencapai 20.000 km.</item>
+        <item>Taj Mahal di India dibangun pada 1632 M oleh kaisar Mughal, Shah Jahan, yang memerintah mulai 1628-1658. Tempat ini merupakan makam istri tercintanya, Mumtaz Mahal, dengan luas kompleks mencapai 42 hektare. Adapun bangunan Taj Mahal, mencerminkan gaya arsitektur yang menekankan simetri dan keseimbangan.</item>
+        <item>Petra diperkirakan berdiri pada awal 312 SM sebagai ibu kota Nabataeans, oleh orang Nabataean yang tinggal di lembah Wadi Musa selama lebih dari 400 tahun. Lokasinya yang strategis, membuat masyarakat memanfaatkan tempat ini untuk rute perdagangan sutra dan rempah-rempah. Petra sendiri telah menjadi Situs Warisan Dunia yang tercatat oleh Organisasi Pendidikan, Keilmuan, dan Kebudayaan (UNESCO )sejak 1985.</item>
+        <item>Colosseum merupakan ampiteater dengan arkade dan setengah kolom. Bangunan ini dibangun pada 80 M oleh Flavian selama abad pertama Kekaisaran Romawi. Pada zamannya, Colosseum digunakan sebagai tempat pertunjukan gladiator dan berburu. Tempat ini juga digunakan untuk mengeksekusi tahanan selama empat abad.</item>
+        <item>Patung ini baru dibangun pada 1926 dan selesai pada 1931, oleh Keuskupan Agung Katolik Roma di Rio de Janeiro, Brazil. Patung Christ the Redeemer memiliki tinggi 125 kaki atau sekitar 38 meter. Tujuan pembangunan, lantaran 90 persen orang Brazil beragama Katolik. Patung Christ the Redeemer dianggap sebagai patung Art Deco terbesar di dunia, yang terbuat dari beton bertulang seberat 1.145 ton.</item>
+        <item>Chichen Itza di Meksiko dibangun antara abad ke-9 dan ke-12 M. Tempat ini berfungsi sebagai kuil untuk Dewa Kukulkan, dewa ular Suku Maya. Chichen Itza juga sekaligus menjadi kota kuno, bagian dari peradaban Suku Maya. Strukturnya setinggi 79 kaki atau sekitar 24 meter, dengan tambahan 20 kaki atau sekitar 6 meter untuk candi.</item>
+        <item>Dibangun pada pertengahan abad ke-15 M oleh Suku Inca, tempat ini terletak di lereng timur Pegunungan Andes. Kebanyakan arkeolog percaya bahwa Machu Picchu dibangun sebagai perkebunan untuk Kaisar Inca Pachacuti yang memerintah pada 1438-1472. Tempat ini digunakan mulai pertengahan abad ke-15 hingga pertengahan abad ke-16 M. Kemudian, Machu Picchu ditinggalkan dengan alasan yang tidak jelas.</item>
+        <item>Patung Zeus di Olympia adalah salah satu dari Tujuh Keajaiban Alam Kuno. Patung ini dihasilkan oleh skulptor terkenal, Phidias (abad ke-5 SM) sekitar tahun 432 SM di Olympia, Yunani. Patung yang terduduk, yang mempunyai tinggi sekitar 12 meter, mengisi seluruh Kuil Zeus bangunan sebagai rumah patung ini. Penyebab kehancuran patung ini sampai kini masih diperdebatkan.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/caca</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+    </integer-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
